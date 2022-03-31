@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body{
-    background-image: url('https://photos.app.goo.gl/8agc7ShtPXsiS9J57');
+    background-image: url('D://HTMLworkplace//sih//assets//images//bg_bggenerator_com (1).jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,6 +289,9 @@ input {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
+}
+.social-container a i{
+	size: 5px;
 }
 .container.vis{
   opacity:1;
