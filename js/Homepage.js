@@ -33,6 +33,7 @@ cross.addEventListener("click", function(){
     });
     form.classList.toggle("opa");
 });
+
 var current = null;
 document.querySelector('#email').addEventListener('focus', function(e) {
   if (current) current.pause();
