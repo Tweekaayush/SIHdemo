@@ -1,84 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  body{
-    background-image: url('D://HTMLworkplace//sih//assets//images//bg_bggenerator_com (1).jpg');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  header {
-    position: relative;
-    left: 0;
-    top: 0;
-    width:100%;
-    height:50px;
-  }
-  
-  header h4{
-    position: absolute;
-    margin:auto;
-    left:10%;
-    font-size: 2rem;
-    color:white;
-    text-shadow: 2px 1px 6px #161616;
-  }
-  
-  /* splash screen */
-  
-  .intro{
-    position:fixed;
-    z-index:1;
-    left:0;
-    top:0;
-    width:100%;
-    height:100vh;
-    background: #ffffff;
-    transition:1s;
-  }
-  
-  .logo-header{
-    position:absolute;
-    top:40%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    color:#161616;
-  }
-  
-  .logo{
-    position:relative;
-    display:inline-block;
-    bottom:-20px;
-    opacity:0;
-    font-size: 1em;
-  }  
-  .logo.active{
-    bottom:0;
-    opacity:1;
-    transition: ease-in-out 0.5s;
-  }
-  
-  .logo.fade{
-    bottom:150px;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
-  }
 
-  /* ---------------------------------------------------------------------------- */
-  /* form */
-
-  
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
 	box-sizing: border-box;
 }
+
+body {
+	background-image: url("../assets/images/bg_bggenerator_com\ \(1\).jpg");
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin:0;
+}
+
 h1 {
 	font-weight: bold;
 	margin: 0;
@@ -153,8 +88,7 @@ input {
 }
 
 .container {
-  opacity: 0;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -163,7 +97,6 @@ input {
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
-  margin-top: 5%;
 }
 
 .form-container {
@@ -225,7 +158,7 @@ input {
 }
 
 .overlay {
-	background: #a452f5;
+	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #a452f5, #822bda);
 	background: linear-gradient(to right, #a452f5, #822bda);
 	background-repeat: no-repeat;
@@ -290,10 +223,18 @@ input {
 	height: 40px;
 	width: 40px;
 }
-.social-container a i{
-	size: 5px;
+.forms{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction:column;
+	margin-top:7%;
 }
-.container.vis{
-  opacity:1;
-  transition: ease-in 0.5s;
+header h4{
+	color:#ffffff;
+	text-shadow: -3px 3px 3px #161616;
+	font-size:2rem;
+	margin:0;
+	margin-left:3%;
+	padding-top:5px;
 }
